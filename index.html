@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <script src="webxdc.js"></script>
+    <style>
+      :root {
+        touch-action: pan-x pan-y;
+      }
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .btn {
+        padding: 16px;
+        border: none;
+        transition: opacity 0.1s;
+        cursor: pointer;
+        flex-grow: 1;
+        font-family: System UI;
+        font-weight: bold;
+        font-size: 20vh;
+        color: white;
+      }
+      .btn:active {
+        opacity: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

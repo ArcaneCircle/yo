@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 3000",
+    "fix": "prettier --write .",
+    "check": "tsc && prettier --check .",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.12",
+    "@webxdc/types": "latest",
+    "@webxdc/vite-plugins": "latest",
+    "prettier": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "dependencies": {
+    "@webxdc/realtime": "^0.2.2",
+    "howler": "^2.2.4"
+  }
+}
