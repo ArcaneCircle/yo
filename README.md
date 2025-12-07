@@ -1,4 +1,4 @@
-# <img src="./public/logo.png" width="32px"> Yo!
+# <img src="./public/icon.png" width="32px"> Yo!
 
 Yo! is a simple app to quickly send a Yo! or Bro! message to your
 chat pals.
