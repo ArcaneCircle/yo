@@ -1,0 +1,60 @@
+# <img src="./public/logo.png" width="32px"> Yo!
+
+Yo! is a simple app to quickly send a Yo! or Bro! message to your
+chat pals.
+
+## Contributing
+
+### Installing Dependencies
+
+After cloning this repo, install dependencies:
+
+```
+pnpm i
+```
+
+### Checking code format
+
+```
+pnpm check
+```
+
+### Testing the app in the browser
+
+To test your work in your browser (with hot reloading!) while developing:
+
+```
+pnpm start
+```
+
+### Building
+
+To package the WebXDC file:
+
+```
+pnpm build
+```
+
+To package the WebXDC with developer tools inside to debug in Delta Chat, set the `NODE_ENV`
+environment variable to "debug":
+
+```
+NODE_ENV=debug pnpm build
+```
+
+The resulting optimized `.xdc` file is saved in `dist-xdc/` folder.
+
+### Releasing
+
+To automatically build and create a new GitHub release with the `.xdc` file:
+
+```
+git tag -a v1.0.1
+git push origin v1.0.1
+```
+
+### Credits
+
+- Inspired by https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series) and https://en.wikipedia.org/wiki/Yo_(app)
+
+- Sounds generated with [eSpeak](https://en.wikipedia.org/wiki/ESpeak)
